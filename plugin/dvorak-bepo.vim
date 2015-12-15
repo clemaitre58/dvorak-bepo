@@ -39,8 +39,7 @@ onoremap aé aw
 onoremap aÉ aW
 onoremap ié iw
 onoremap iÉ iW
-" Pour faciliter les manipulations de fenêtres, on utilise {W} comme un
-Ctrl+W :
+" Pour faciliter les manipulations de fenêtres, on utilise {W} comme un Ctrl+W :
 noremap w <C-w>
 noremap W <C-w><C-w>
 
@@ -67,12 +66,10 @@ noremap zt zk
 " {J} = « Jusqu'à »            (j = suivant, J = précédant)
 noremap j t
 noremap J T
-" {L} = « Change »             (l = attend un mvt, L = jusqu'à la fin de
-ligne)
+" {L} = « Change »             (l = attend un mvt, L = jusqu'à la fin de ligne)
 noremap l c
 noremap L C
-" {H} = « Remplace »           (h = un caractère slt, H = reste en
-« Remplace »)
+" {H} = « Remplace »           (h = un caractère slt, H = reste en « Remplace »)
 noremap h r
 noremap H R
 " {K} = « Substitue »          (k = caractère, K = ligne)
