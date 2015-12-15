@@ -32,87 +32,87 @@ Key mappings
      arstd HNEIo'         c   r      |     h   l        asdfg HJKL;'
      zxcvb km,./            t        |       j          zxcvb nm,./
  
- Details of the mapping :
- 
-" {W} -> [É]
-" ——————————
-" O remap W sur É :
-noremap é w
-noremap É W
-
-" remap clear and replace
-onoremap aé aw
-onoremap aÉ aW
-onoremap ié iw
-onoremap iÉ iW
-
-" {W} as Ctrl+W :
-noremap w <C-w>
-noremap W <C-w><C-w>
-
-" [HJKL] -> {CTSR}
-" ————————————————
-" {cr} = « left / right »
-noremap c h
-noremap r l
-" {ts} = « top / bottom »
-noremap t j
-noremap s k
-" {CR} = « Top / Bottom of screnn »
-noremap C H
-noremap R L
-" {TS} = « join / help »
-noremap T J
-noremap S K
-" Previous / Next
-noremap zs zj
-noremap zt zk
-
-" {HJKL} <- [CTSR]
-" ————————————————
-" {J} = « Jusqu'à »            (j = suivant, J = précédant)
-noremap j t
-noremap J T
-" {L} = « Change »             (l = attend un mvt, L = jusqu'à la fin de ligne)
-noremap l c
-noremap L C
-" {H} = « Replace »           (h = un caractère slt, H = reste en « Remplace »)
-noremap h r
-noremap H R
-" {K} = « Substitue »          (k = caractère, K = ligne)
-noremap k s
-noremap K S
-" spellchecking
-noremap ]k ]s
-noremap [k [s
-
-" Désambiguation de {g}
-" —————————————————————
-" line previous / next screen
-noremap gs gk
-noremap gt gj
-" previous / next tab
-noremap gb gT
-noremap gé gt
-" {gB} / {gÉ} to go first / last tab
-noremap gB :exe "silent! tabfirst"<CR>
-noremap gÉ :exe "silent! tablast"<CR>
-" {g"} to go beginning of line
-noremap g" g0
-
-" to have <> directly
-" ————————————
-noremap « <
-noremap » >
-
-" Remap windows management
-" ———————————————————————————————
-noremap wt <C-w>j
-noremap ws <C-w>k
-noremap wc <C-w>h
-noremap wr <C-w>l
-noremap wd <C-w>c
-noremap wo <C-w>s
-noremap wp <C-w>o
-noremap w<SPACE> :split<CR>
-noremap w<CR> :vsplit<CR>}]]"
+ Details of the mapping
+ ----------------------
+    " {W} -> [É]
+    " ——————————
+    " O remap W sur É :
+    noremap é w
+    noremap É W
+    
+    " remap clear and replace
+    onoremap aé aw
+    onoremap aÉ aW
+    onoremap ié iw
+    onoremap iÉ iW
+    
+    " {W} as Ctrl+W :
+    noremap w <C-w>
+    noremap W <C-w><C-w>
+    
+    " [HJKL] -> {CTSR}
+    " ————————————————
+    " {cr} = « left / right »
+    noremap c h
+    noremap r l
+    " {ts} = « top / bottom »
+    noremap t j
+    noremap s k
+    " {CR} = « Top / Bottom of screnn »
+    noremap C H
+    noremap R L
+    " {TS} = « join / help »
+    noremap T J
+    noremap S K
+    " Previous / Next
+    noremap zs zj
+    noremap zt zk
+    
+    " {HJKL} <- [CTSR]
+    " ————————————————
+    " {J} = « Jusqu'à »            (j = suivant, J = précédant)
+    noremap j t
+    noremap J T
+    " {L} = « Change »             (l = attend un mvt, L = jusqu'à la fin de ligne)
+    noremap l c
+    noremap L C
+    " {H} = « Replace »           (h = un caractère slt, H = reste en « Remplace »)
+    noremap h r
+    noremap H R
+    " {K} = « Substitue »          (k = caractère, K = ligne)
+    noremap k s
+    noremap K S
+    " spellchecking
+    noremap ]k ]s
+    noremap [k [s
+    
+    " Désambiguation de {g}
+    " —————————————————————
+    " line previous / next screen
+    noremap gs gk
+    noremap gt gj
+    " previous / next tab
+    noremap gb gT
+    noremap gé gt
+    " {gB} / {gÉ} to go first / last tab
+    noremap gB :exe "silent! tabfirst"<CR>
+    noremap gÉ :exe "silent! tablast"<CR>
+    " {g"} to go beginning of line
+    noremap g" g0
+    
+    " to have <> directly
+    " ————————————
+    noremap « <
+    noremap » >
+    
+    " Remap windows management
+    " ———————————————————————————————
+    noremap wt <C-w>j
+    noremap ws <C-w>k
+    noremap wc <C-w>h
+    noremap wr <C-w>l
+    noremap wd <C-w>c
+    noremap wo <C-w>s
+    noremap wp <C-w>o
+    noremap w<SPACE> :split<CR>
+    noremap w<CR> :vsplit<CR>}]]"
